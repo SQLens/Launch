@@ -27,12 +27,9 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        // pretitle="Nextly Benefits"
         title=" Why should you use SQLens?">
         SQLens is an open source product with security in mind, that's why we never save your URI or any incoming data and is locally hosted so your data never has to leave your local enviroment.
       </SectionTitle>
-      {/* <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} /> */}
       <SectionTitle
         pretitle="Check out the demo tab to see it live!"
         title="Visualize your data easily">
@@ -51,7 +48,7 @@ const Home = () => {
         conversion rate as well as support or chat requests.
       </SectionTitle>
       <Faq />
-      <Cta />
+      {/* <Cta /> */}
       <Footer />
       <PopupWidget />
     </>
