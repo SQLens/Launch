@@ -8,3 +8,7 @@
     @apply dark:bg-trueGray-900;
   }
 }
+
+.docs-container {
+  margin: 10%;
+}
