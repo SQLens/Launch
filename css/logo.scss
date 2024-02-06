@@ -1,0 +1,79 @@
+@use "sass:math";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+
+$ff: 'Fira Mono', monospace;
+$slate: #e92a67;
+$blue: #646cff;
+
+@function rem($px, $base: 16) {
+  @return #{math.div($px, $base)}rem;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.logo-container {
+  display: flex; 
+  align-items: center; 
+  margin-left: rem(0); 
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateZ(0);
+}
+
+[id="logo"] {
+  position: relative;
+  flex: 0 0 rem(90);
+  width: rem(100);
+  z-index: 2;
+
+  polygon {
+    transform-origin: 50%;
+  }
+
+  circle {
+    transform-origin: 80% 80%;
+  }
+}
+
+.site-title {
+    position: relative;
+    overflow: visible; // Keeps text visible
+    // margin-left: rem(2); // Reduced spacing between logo and text
+    z-index: 1;
+    transform: translateZ(0);
+    display: flex; // Aligns items in a flex row
+    align-items: center; // Centers items vertically
+    font-family: $ff;
+  }
+
+.site-title-text {
+//   padding: rem(1); 
+  color: $slate;
+  font-size: rem(20);
+  font-weight: 500; 
+
+  span {
+    font-family: $ff;
+    color: $blue;
+  }
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}

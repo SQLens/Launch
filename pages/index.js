@@ -27,23 +27,21 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
+        // pretitle="Nextly Benefits"
         title=" Why should you use SQLens?">
         SQLens is an open source product with security in mind, that's why we never save your URI or any incoming data and is locally hosted so your data never has to leave your local enviroment.
       </SectionTitle>
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      {/* <Benefits data={benefitOne} />
+      <Benefits imgPos="right" data={benefitTwo} /> */}
       <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        pretitle="Check out the demo tab to see it live!"
+        title="Visualize your data easily">
+        A cool sentence.
       </SectionTitle>
       <Video />
       <SectionTitle
         pretitle="Testimonials"
-        title="Here's what our customers said">
+        title="Who's using our product">
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
       </SectionTitle>

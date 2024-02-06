@@ -4,6 +4,7 @@ import Container from "./container";
 
 const Benefits = (props) => {
   const { data } = props;
+
   return (
     <>
       <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
