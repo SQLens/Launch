@@ -49,11 +49,15 @@
   place-items: center;
 } */
 
+/* .migration-log {
+  font-family: 'Fira Mono', monospace;
+} */
 .flow-container {
   display: flex;
   width: 100vw;
   height: 60vh;
-  margin: 15px;
+  margin: 15px 0px;
+
 }
 
 .column-name-node {
