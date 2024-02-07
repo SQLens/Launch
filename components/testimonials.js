@@ -9,16 +9,16 @@ const Testimonials = () => {
   return (
     <Container>
       <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-        <p className="text-2xl leading-normal">
+        {/* <p className="text-2xl leading-normal">
           "Could I use your app to visualize my SQL database?"
-        </p>
+        </p> */}
         <div className="flex items-center mt-8 space-x-3">
           <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
             <Image src='/../public/img/ReaCraft.png' width="56" height="56" alt="Avatar" />
           </div>
           <div>
-            <div className="text-lg font-medium">Claire</div>
-            <div className="text-gray-600 dark:text-gray-400">Owner of Google</div>
+            <div className="text-lg font-medium">ReaCraft</div>
+            <div className="text-gray-600 dark:text-gray-400">React developer tool</div>
           </div>
         </div>
         <a

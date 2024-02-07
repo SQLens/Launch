@@ -33,7 +33,7 @@ const Home = () => {
       </SectionTitle>
       <SectionTitle
         pretitle="Try our demo tab to see it live!"
-        title="Visualize your data easily">
+        title="Visualize your data with ease">
         Foreign and primary key relationships at the touch of your fingers.
       </SectionTitle>
       <Video />
@@ -43,12 +43,12 @@ const Home = () => {
       </SectionTitle>
       <Faq />
       {/* <Cta /> */}
-      <SectionTitle
+      {/* <SectionTitle
         pretitle="Testimonials"
         title="Who's using our product">
         Check out other amazing products that have used SQLens!
       </SectionTitle>
-      <Testimonials />
+      <Testimonials /> */}
       <Footer />
       <PopupWidget />
     </>

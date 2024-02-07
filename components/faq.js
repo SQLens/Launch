@@ -35,7 +35,7 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
+    question: "Is SQLens free to use?",
     answer: "Yes, this template is completely free to use. We're committed to the principles of open source, believing in the power of community collaboration to drive innovation and improve software accessibility.",
   },
   {
