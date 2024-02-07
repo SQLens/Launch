@@ -1,6 +1,6 @@
-@use "sass:math";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
 
-// @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+@use "sass:math";
 
 $ff: 'Fira Mono', monospace;
 $slate: #e92a67;
@@ -11,6 +11,7 @@ $blue: #646cff;
 }
 
 body {
+  // font-family: 'Fira Mono', monospace;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,9 +20,9 @@ body {
 }
 
 .logo-container {
-  display: flex; 
-  align-items: center; 
-  margin-left: rem(0); 
+  display: flex;
+  align-items: center;
+  margin-left: rem(0);
 }
 
 .site-logo {
@@ -58,10 +59,10 @@ body {
   }
 
 .site-title-text {
-//   padding: rem(1); 
+//   padding: rem(1);
   color: $slate;
   font-size: rem(20);
-  font-weight: 500; 
+  font-weight: 500;
 
   span {
     font-family: $ff;
