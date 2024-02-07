@@ -1,6 +1,7 @@
-import Image from 'next/image';
-import Container from './container';
-import heroImg from '../public/img/hero.png';
+import Image from "next/image";
+import Container from "./container";
+import heroImg from "../public/img/hero.png";
+import sqlImg from "../public/img/sqlens-demo.png"
 
 const Hero = () => {
   return (
@@ -35,7 +36,7 @@ const Hero = () => {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src={sqlImg || heroImg}
               width="616"
               height="617"
               className={'object-cover'}
