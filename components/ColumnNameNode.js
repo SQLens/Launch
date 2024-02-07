@@ -63,7 +63,10 @@ const ColumnNameNode = ({ data }) => {
       const selectedTable = tables.filter(
         (table) => table.name === data.parent
       )[0];
-      if (
+      if (editedLabel === data.label) {
+        setIsEditing(false);
+      }
+      else if (
         selectedTable.columns.includes(editedLabel) ||
         editedLabel.match(/[^A-Za-z0-9_]/g)
         || editedLabel.length === 0

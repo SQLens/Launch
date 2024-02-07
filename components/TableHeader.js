@@ -93,7 +93,10 @@ const TableHeader = ({ data }) => {
   const handleEditSubmit = () =>
     __awaiter(void 0, void 0, void 0, function* () {
       const tableNames = tables.map((table) => table.name);
-      if (
+      if (editedLabel === data.label) {
+        setIsEditing(false);
+      }
+      else if (
         tableNames.includes(editedLabel) ||
         editedLabel.match(/[^A-Za-z0-9_]/g)
       ) {
