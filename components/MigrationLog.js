@@ -7,5 +7,5 @@ export default function MigrationLog() {
   const logs = queries.map((string) =>
     _jsx(Typography, { variant: 'body2', sx: { ml: 3, fontFamily: 'Fira Mono, monospace' }, children: string }) //could change to div
   );
-  return _jsx(_Fragment, { children: logs, className: 'migration-log' });
+  return _jsx(_Fragment, { children: logs });
 }
