@@ -8,15 +8,15 @@ const DemoPage = () => {
   return (
     <div>
        <Navbar />
-       <div className='text-sm text-center text-gray-600 dark:text-gray-400'>
-        Give SQLens a shot!
+       <div className='text-lg text-center '>
+        Interact withour mock database...
       </div>
       {/* <p>This is the demo page for showcasing how routing works in Next.js.</p> */}
-      <DemoApp />
-       <div className='text-sm text-center text-gray-600 dark:text-gray-400'>
-       Below is an example of your migration file
+      <div className=''><DemoApp /></div>
+       <div className='text-lg text-center '>
+       ...and see your migration log update live
       </div>
-      <div className='w-1/2'>
+      <div className='lg:w-3/4'>
         <MigrationLog />
       </div>
     </div>

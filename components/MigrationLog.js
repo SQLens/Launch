@@ -5,7 +5,7 @@ import useStore from './store';
 export default function MigrationLog() {
   const queries = useStore((state) => state.queries);
   const logs = queries.map((string) =>
-    _jsx(Typography, { variant: 'body2', sx: { ml: 3, fontFamily: 'Fira Mono, monospace' }, children: string }) //could change to div
+    _jsx(Typography, { variant: 'body2', sx: { ml: 6, fontFamily: 'Fira Mono, monospace' }, children: string }) //could change to div
   );
   return _jsx(_Fragment, { children: logs });
 }
