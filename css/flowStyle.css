@@ -1,42 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
-
-@layer base {
-  html,
-  body {
-    @apply dark:bg-trueGray-900;
-  }
+/* @font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Fira Mono'), url('../assets/FiraMono-Regular.ttf') format('ttf');
 }
 
-.docs-container {
-  margin: 10%;
-}
-
-
-/* turbo flow demo styles */
 :root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; */
+  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* margin: 0px;
-  padding: 0px; */
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-  /* margin: 0; */
+  margin: 0;
   display: flex;
   place-items: center;
 }
@@ -44,14 +31,13 @@ body {
 .flow-container {
   display: flex;
   width: 100vw;
-  height: 60vh;
-  margin: 15px;
+  height: calc(100vh - 64px);
 }
 
 .column-name-node {
   display: flex;
   justify-content: space-between;
-  height: 41px;
+  height: 39px;
   align-items: center;
   border: solid 1px #213547;
   border-radius: 3px;
@@ -77,11 +63,9 @@ body {
   border: 2px solid #2a8af6;
   border: 2px solid #e92a67;
   border-radius: 4px;
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Fira mono';
 }
 
-/* EVERYTHING BELOW  HERE IS THE PREFERRED STYLES, redundant styles from above can be removed ABOVE*/
-/* turbo flow */
 .react-flow {
   --bg-color: rgb(17, 17, 17);
   --text-color: rgb(243, 244, 246);
@@ -264,4 +248,4 @@ body {
 
 .table-menu-dots {
   margin: -8px;
-}
+} */
