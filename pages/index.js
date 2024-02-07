@@ -16,12 +16,12 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>SQLens - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>SQLens</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="SQLens is an Open Source SQL visualizer"
         />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <Navbar />
