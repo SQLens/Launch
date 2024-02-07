@@ -57,7 +57,7 @@ const Flow = () => {
       setNodes(updatedNodes);
       setEdges(newEdges);
     }
-  }, [tables, setNodes, setEdges, nodes]);
+  }, [tables, setNodes, setEdges]);
   const proOptions = { hideAttribution: true };
   return _jsx(_Fragment, {
     children: _jsx('div', {
