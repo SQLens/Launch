@@ -83,7 +83,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/get-started" className="px-6 py-2 text-white bg-indigo-600 rounded-md">
+          <Link href="https://github.com/oslabs-beta/SQLens" className="px-6 py-2 text-white bg-indigo-600 rounded-md">
             Get Started
           </Link>
           <ThemeChanger />
