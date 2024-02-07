@@ -96,7 +96,7 @@ const Logo = () => {
         <div
           id="logo-text"
           className="site-title-text"
-          style={{ fontSize: '28px', color: '#646cff' }}
+          style={{ fontSize: '28px', color: '#646cff', fontFamily: 'Fira mono, monospace' }}
         >
           SQL<span style={{ color: '#e92a67' }}>ens</span>
         </div>
