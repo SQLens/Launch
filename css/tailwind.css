@@ -42,11 +42,11 @@
   padding: 0px; */
 }
 
-body {
-  /* margin: 0; */
+/* body {
+   margin: 0;
   display: flex;
   place-items: center;
-}
+} */
 
 .flow-container {
   display: flex;
