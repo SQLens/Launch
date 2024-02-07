@@ -36,21 +36,21 @@ const Faq = () => {
 const faqdata = [
   {
     question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    answer: "Yes, this template is completely free to use. We're committed to the principles of open source, believing in the power of community collaboration to drive innovation and improve software accessibility.",
   },
   {
     question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    answer: "Yes! This project is operating under the MIT license",
   },
   {
     question: "What is your refund policy? ",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "SQLens is designed to handle large datasets with efficiency, leveraging the power of GraphQL to optimize data retrieval. The integration of Apollo Server enhances this capability by implementing caching mechanisms further optimizing performance by reducing load on your database during query operations",
   },
   {
     question: "Do you offer technical support? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "No, we don't offer technical support for free downloads. Feel free to enter an issue on github or even contribute a pull request! Contribution instructions can be found in the README",
   },
 ];
 
