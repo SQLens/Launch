@@ -43,7 +43,7 @@ const faqdata = [
     answer: "Yes! This project is operating under the MIT license",
   },
   {
-    question: "What is your refund policy? ",
+    question: "How is SQLens so fast?",
     answer:
       "SQLens is designed to handle large datasets with efficiency, leveraging the power of GraphQL to optimize data retrieval. The integration of Apollo Server enhances this capability by implementing caching mechanisms further optimizing performance by reducing load on your database during query operations",
   },
