@@ -11,6 +11,13 @@
   }
 }
 
+/* @font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Fira Mono'), url('../public/FiraMono-Regular.ttf') format('ttf');
+} */
+
 .docs-container {
   margin: 10%;
 }

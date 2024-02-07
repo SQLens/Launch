@@ -5,105 +5,79 @@ import {
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
-} from "@heroicons/react/24/solid";
+  LinkIcon,
+} from '@heroicons/react/24/solid';
 
 import GitHubIconLink from '../components/github';
+import LinkedInIconLink from './linkedin';
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import margLinkedIn from '../public/img/margaret.png'
+import alexLinkedIn from '../public/img/alex-linkedin.png'
+import jennyLinkedIn from '../public/img/jenny.png'
+import jarodLinkedIn from '../public/img/jarod.png'
 
 const Alex = {
   title: "Alex Palazzo",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
-  image: benefitOneImg,
+  // desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  image: alexLinkedIn,
   bullets: [
     {
-      title: "Github",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: < GitHubIconLink url='https://github.com/alexpalazzo' />,
+      title: 'Github',
+      icon: <GitHubIconLink url="https://github.com/alexpalazzo" />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
-    },
-    {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: 'LinkedIn',
+      icon: <LinkedInIconLink url="https://www.linkedin.com/in/alexpalazzo" />,
     },
   ],
 };
 
 const Jenny = {
-  title: "Jenny Ouk",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitTwoImg,
+  title: 'Jenny Ouk',
+  // desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  image: jennyLinkedIn,
   bullets: [
     {
-      title: "Github",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: < GitHubIconLink url='https://github.com/jennyouk' />,
+      title: 'Github',
+      icon: <GitHubIconLink url="https://github.com/jennyouk" />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
-    },
-    {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: 'LinkedIn',
+      icon: <LinkedInIconLink url="https://www.linkedin.com/in/jenny-ouk-a3668814/" />,
     },
   ],
 };
 
 const Margaret = {
-  title: "Margaret Hatch",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitOneImg,
+  title: 'Margaret Hatch',
+  // desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  image: margLinkedIn,
   bullets: [
     {
-      title: "Github",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: < GitHubIconLink url='https://github.com/margarethatch' />,
+      title: 'Github',
+      icon: <GitHubIconLink url="https://github.com/margarethatch" />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
-    },
-    {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: 'LinkedIn',
+      icon: <LinkedInIconLink url="https://www.linkedin.com/in/margarethatch/" />,
     },
   ],
 };
-
 
 const Jarod = {
-  title: "Jarod Crawford",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitTwoImg,
+  title: 'Jarod Crawford',
+  // desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  image: jarodLinkedIn,
   bullets: [
     {
-      title: "GitHub",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: < GitHubIconLink url='https://github.com/JarodCrawford' />,
+      title: 'GitHub',
+      icon: <GitHubIconLink url="https://github.com/JarodCrawford" />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
-    },
-    {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: 'LinkedIn',
+      icon: <LinkedInIconLink url="http://www.linkedin.com/in/jarod-crawford-b83096253" />,
     },
   ],
 };
 
-
-export {Alex, Jenny, Margaret, Jarod};
+export { Alex, Jenny, Margaret, Jarod };
