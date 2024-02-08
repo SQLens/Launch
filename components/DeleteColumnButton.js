@@ -61,11 +61,13 @@ const DeleteColumnButton = ({ data }) => {
           (table) => table.name === data.parent
         )[0];
         const updatedTables = tables.map((table) => {
-          selectedTable.columns.forEach((column, index) => {
-            if (data.label === column) {
-              table.columns.splice(index, 1);
-            }
-          });
+          if (table === selectedTable) {
+            selectedTable.columns.forEach((column, index) => {
+              if (data.label === column) {
+                table.columns.splice(index, 1);
+              }
+            });
+          }
           return table;
         });
         setTables(updatedTables);

@@ -85,7 +85,6 @@ const ColumnNameNode = ({ data }) => {
           return table;
         });
         setTables(updatedTables);
-        setTables(updatedTables);
         const query = `ALTER TABLE ${data.parent}
             RENAME COLUMN ${data.label} to ${editedLabel};`;
         setQueries([...queries, query]);
