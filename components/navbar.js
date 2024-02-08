@@ -75,7 +75,7 @@ const Navbar = () => {
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             
             {navigation.map((menu, index) => (
-              <li className="mr-11 nav__item" key={index}>
+              <li className="mr-11 lg:mr-2 nav__item" key={index}>
                 <Link href={menu.path} className="inline-block px-12 py-3 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
                   {menu.name}
                 </Link>
