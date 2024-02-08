@@ -7,7 +7,7 @@ const Benefits = (props) => {
 
   return (
     <>
-    <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
+    <Container className="flex flex-wrap mb-10 lg:gap-8 lg:flex-nowrap ">
       <div
         className={`flex items-center justify-center w-full lg:w-1/2 ${
           props.imgPos === "right" ? "lg:order-1" : ""
@@ -30,15 +30,14 @@ const Benefits = (props) => {
           data.imgPos === "right" ? "lg:justify-end" : ""
         }`}>
         <div>
-          <div className="flex flex-col w-full mt-4">
-          {/* <div className="flex flex-col w-full mt-0"> */}
-          <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+          <div className="flex flex-col w-full  mt-">
+          <h3 className="max-w-2xl mt-0 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
             {data.title}
           </h3>
 
-          <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+          {/* <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
             {data.desc}
-          </p>
+          </p> */}
         </div>
 
         <div className="w-full mt-3">
@@ -59,6 +58,7 @@ function Benefit(props) {
   return (
     <div className="flex items-start mt-3 space-x-2">
       <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-500 rounded-md w-11 h-11">
+      {/* <div className="flex items-center justify-center flex-shrink-0 mt-1 rounded-md w-11 h-11" style={{backgroundColor: '#a853ba'}}> */}
         {React.cloneElement(props.icon, {
           className: "w-7 h-7 text-indigo-50",
         })}

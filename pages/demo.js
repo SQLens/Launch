@@ -9,7 +9,7 @@ const DemoPage = () => {
     <div>
        <Navbar />
        <div className='text-lg text-center '>
-        Interact withour mock database...
+        Interact with our mock database...
       </div>
       {/* <p>This is the demo page for showcasing how routing works in Next.js.</p> */}
       <div className=''><DemoApp /></div>
