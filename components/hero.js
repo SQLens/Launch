@@ -1,48 +1,50 @@
-import Image from "next/image";
-import Container from "./container";
-import heroImg from "../public/img/hero.png";
-import sqlImg from "../public/img/sqlens-demo.png"
+import Image from 'next/image';
+import Container from './container';
+import heroImg from '../public/img/hero.png';
+// import sqlImg from "../public/img/sqlens-demo.png"
+import sqlImg from '../public/img/sqlens-static-hd1.png';
 
 const Hero = () => {
   return (
     <>
-      <Container className="flex flex-wrap custom-margin">
-        <div className="flex items-center w-full lg:w-1/2">
-          <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+      {/* <Container className="flex flex-wrap custom-margin"> */}
+      <Container className='flex flex-wrap lg:w-3/4'>
+        <div className='flex items-center w-full lg:w-1/2'>
+          <div className='max-w-2xl mb-8'>
+            <h1 className='text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white'>
               SQL Visualization <br></br>made easy
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className='py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300'>
               Effortlessly manage and visualize relational databases with
               SQLens. Tackle complex relationships and optimize queries with a
               clear, graphical schema representation. <br></br>Transform
               database complexity into clarity.
             </p>
 
-            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+            <div className='flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row'>
               <a
-                href="https://github.com/oslabs-beta/SQLens"
-                target="_blank"
-                rel="noopener"
-                className="relative inline-flex items-center justify-center p-0.5 mb-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800"
+                href='https://github.com/oslabs-beta/SQLens'
+                target='_blank'
+                rel='noopener'
+                className='relative inline-flex items-center justify-center p-0.5 mb-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800'
               >
-                <span className="relative px-12 py-5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-lg" >
+                <span className='relative px-12 py-5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-lg'>
                   Check us out on GitHub
                 </span>
               </a>
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
+        <div className='flex items-center justify-center w-full lg:w-1/2'>
+          <div className='shadow-xl lg:ml-8' style={{borderRadius: '8px', overflow: 'hidden'}}>
             <Image
               src={sqlImg || heroImg}
-              width="616"
-              height="617"
+              width='616'
+              height='617'
               className={'object-cover'}
-              alt="Hero Illustration"
-              loading="eager"
-              placeholder="blur"
+              alt='Hero Illustration'
+              loading='eager'
+              placeholder='blur'
             />
           </div>
         </div>

@@ -2,13 +2,12 @@ import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
-
-import { benefitOne, benefitTwo } from "../components/data";
+// import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
-import Benefits from "../components/benefits";
+// import Benefits from "../components/benefits";
 import Footer from "../components/footer";
-import Testimonials from "../components/testimonials";
-import Cta from "../components/cta";
+// import Testimonials from "../components/testimonials";
+// import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 ////
@@ -28,7 +27,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        title="Why SQLens">
+        title="Why SQLens?">
         SQLens is locally hosted, ensuring your data remains under your control. The application makes complex relationships in your database more accessible, making management straightforward and secure. Experience clarity and security with SQLens.
       </SectionTitle>
       <SectionTitle
